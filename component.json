@@ -1,0 +1,20 @@
+{
+    "name": "drmonty-garlicjs",
+    "repo": "drmonty/garlicjs",
+    "description": "Automatically persist your forms' text and select field values locally, until the form is submitted.",
+    "version": "1.2.3",
+    "homepage": "http://garlicjs.org/",
+    "license": "MIT",
+    "dependencies": {
+        "components/jquery": ">=1.8"
+    },
+    "main": "js/garlic.min.js",
+    "scripts": [
+        "js/garlic.min.js",
+        "js/garlic-standalone.min.js"
+    ],
+    "files": [
+        "js/garlic.min.js",
+        "js/garlic-standalone.min.js"
+    ]
+}

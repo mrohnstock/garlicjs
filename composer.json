@@ -1,0 +1,31 @@
+{
+    "name": "drmonty/garlicjs",
+    "description": "Automatically persist your forms' text and select field values locally, until the form is submitted.",
+    "type": "component",
+    "homepage": "http://garlicjs.org/",
+    "license": "MIT",
+    "author": {
+        "url": "http://www.imctobitch.com",
+        "name": "Guillaume Potier"
+    },
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "require": {
+        "components/jquery": ">=1.8"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/garlic.min.js"
+            ],
+            "files": [
+                "js/garlic.min.js",
+                "js/garlic-standalone.min.js"
+            ],
+            "shim": {
+                "deps": ["jquery"]
+            }
+        }
+    }
+}
