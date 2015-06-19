@@ -2,7 +2,7 @@
     "name": "drmonty-garlicjs",
     "description": "Automatically persist your forms' text and select field values locally, until the form is submitted.",
     "homepage": "http://garlicjs.org/",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "author": "Guillaume Potier",
     "main": "js/garlic.min.js",
     "repository": {
